@@ -72,5 +72,22 @@ Machine Learning and data science are interrelated fields it’s one of the many
 
 ![Screenshot (96)](https://user-images.githubusercontent.com/88887839/156554617-314634d6-c7bb-4299-b9ca-2499fcb016e5.png)
 
+# Evalution of all the models: 
+
+![Screenshot (101)](https://user-images.githubusercontent.com/88887839/156555565-69efb377-c0cf-4690-8851-fb46e86dba28.png)
+
+![Screenshot (102)](https://user-images.githubusercontent.com/88887839/156555573-a8e5837d-900d-4ca2-a7fb-b765ea69dbe5.png)
+
+XGBOOST and random forests ranks the 2 best classifiers in this report.
+
+## Confusion Matrix:
+A confusion matrix will be showing the degree of success of each model when comparing the predicted values to the real values. Then confusion matrix is plotted as a correlation table at first but then in a form of a heat map. This visualization of all the classification models help to identify which model performed better than the other in prediction.
+After evaluting the performance of all the models, the XGBOOST ranked the best classifier so its confusion matrix in the form of a heatmap would be as follows:
 
 
+<img width="382" alt="Screenshot 108" src="https://user-images.githubusercontent.com/88887839/156557685-a9fd583d-b33a-4fb6-964f-1fd488848d63.png">
+
+For more detailed explanation, the rest of the confusion matrix are presented in the report.
+
+# Conclusion
+This project consolidated the explanatory data analysis with the implementation of machine learning algorithm. The dataset was fully explored and visualized using different techniques of visualization either bar graph, correlation matrix, histograms and pie charts. This helped to make the data clearer and more understandable. Then, six classification models were implemented starting from decision trees to XGBOOST. All things considered, these models were evaluated using different evaluation metrics from F1-Score to accuracy, recall and precision. The results were satisfying where XGBOOST had the best accuracy of 99.995% followed by random forests. Finally, due to the fact that the data is real data, it can be noticed that more than 99% of transaction are valid and not fraud while the fraud cases accounts for 0.17%. This creates an imbalance between the classes and this imbalance issue will cause bias towards the non-fraud transaction accounting for higher accuracy. Thus, there are various techniques to deal with this imbalance such as oversampling or under sampling that can be discussed in the future.
